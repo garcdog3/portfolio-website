@@ -1,0 +1,163 @@
+/************************************
+HEADING
+************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sean {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 20px;
+  border: solid 8px #EFF6FE;
+  border-radius: 20%;
+  
+  
+}
+
+.twitter-logo, .facebook-logo {
+	height: 30px;
+	width: 30px;
+}
+
+header {
+/*	background: linear-gradient(pink -190%, white 100%);*/
+	height: 400px;
+    text-align: center;
+}
+
+header div {
+	padding-top: 80px;
+}
+
+header h2 {
+  margin-top: -15px;
+}
+
+
+
+/************************************
+NAVIGATION
+************************************/
+nav {
+  text-align: center;
+  margin-top: 65px;
+  padding: 2.5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 5px;
+}
+
+nav li {
+  display: inline-block;
+  border: solid 2px #EFF6FE;
+  border-radius: 15%;
+  padding: 3px;
+  font-size: 22px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a, nav a:visited {
+  color: #000;
+}
+
+nav a:hover {
+  color: #FFF;
+}
+
+nav a.selected {
+  color: #29609D;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.sean:hover {
+  border-radius: 50%;
+}
+
+
+
+/************************************
+TRANSITIONS
+************************************/
+
+nav a:hover, nav a {
+  transition: color .2s ease-in-out 0s;
+}
+
+img.sean:hover, img.sean {
+  transition: border-radius .2s ease-in-out 0s;
+}
+
+img.sean:hover {
+  opacity: 0.7;
+  transition: .2s ease-in 0s;
+}
+
+img.sean {
+  transition: .2s ease-out 0s;
+}
+
+img.twitter-logo:hover, img.facebook-logo:hover {
+  opacity: .4;
+  transition: .2s ease-in 0s;
+}
+
+img.twitter-logo, img.facebook-logo {
+  transition: .2s ease-out 0s;
+}
+
+
+/************************************
+PRIMARY CONTENT
+************************************/
+.content {
+  text-align: center;
+  margin: 5px 300px;
+  max-width: 100%;
+  
+}
+
+body {
+  background: #98BCE4;
+/*  background: linear-gradient(white 75%, pink 110%);*/
+}
+
+/************************************
+Page: Contact
+************************************/
+
+.nav ul {
+  margin-top: -50px;
+}
+
+.contact {
+  text-align: center;
+}
+
+ li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+
+/************************************
+Footer
+************************************/
+footer {
+  text-align: center;
+  margin-top: 130px;
+  padding-top: 50px;
+  font-size: 12px;
+}
